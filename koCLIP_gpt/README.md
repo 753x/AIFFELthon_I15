@@ -19,10 +19,10 @@
 ------------
 
 ## :floppy_disk: 폴더 및 파일 설명
-#### **Quiz_image** : 모델 캡셔닝 생성을 위한 이미지 100장<br><br>
-#### **Quiz_image_json** : 12만개 학습 모델 캡셔닝 생성 json 파일 100장<br><br>
-#### **sample_data_image2_json...** : 5만개 학습 모델 캡셔닝 생성 json 파일 100장<br><br>
-#### **aihub** : aihub 모델을 이용한 캡셔닝 생성 폴더<br><br>
-#### **caption_prediction_json...** : 캡션 생성 json파일을 만들기 위한 ipynb 파일<br><br>
-#### **caption_prediction_koclip...** : koclip을 이용한 캡션 생성 ipynb 파일<br><br>
-#### oscar_split_train.pkl** : CLIP 특징 추출 코드 pkl 파일
+- **Quiz_image** : 모델 캡셔닝 생성을 위한 이미지 100장<br><br>
+- **Quiz_image_json** : 12만개 학습 모델 캡셔닝 생성 json 파일 100장<br><br>
+- **sample_data_image2_json...** : 5만개 학습 모델 캡셔닝 생성 json 파일 100장<br><br>
+- **aihub** : aihub 모델을 이용한 캡셔닝 생성 폴더<br><br>
+- **caption_prediction_json...** : 캡션 생성 json파일을 만들기 위한 ipynb 파일<br><br>
+- **caption_prediction_koclip...** : koclip을 이용한 캡션 생성 ipynb 파일<br><br>
+- oscar_split_train.pkl** : CLIP 특징 추출 코드 pkl 파일
