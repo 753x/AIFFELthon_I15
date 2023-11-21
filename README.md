@@ -149,3 +149,9 @@ koCLIP + ko-gpt2 를 사용한 한글 이미지 캡셔닝 데이터를 생성하
     }
     setquestion type = <class 'str'>
   ```
+
+  ## project members
+  [**전요한**](https://github.com/753x)
+  [**김소연**](https://github.com/elliekim9881)
+  [**이진영**](https://github.com/Jinyoung9393)
+  [**이윤상**](https://github.com/lys678)
