@@ -19,7 +19,7 @@ koCLIP + ko-gpt2 를 사용한 한글 이미지 캡셔닝 데이터를 생성하
 3. 클라이언트에 퀴즈화면을 전송한다.
 4. 정오답을 체크한다.
    
-## [koCLIP + ko-gpt2 를 사용한 이미지 캡셔닝 데이터 생성]()
+## [koCLIP + ko-gpt2 를 사용한 이미지 캡셔닝 데이터 생성](https://github.com/elliekim9881/AIFFELthon_I15/tree/main/model_i15/koCLIP_gpt)
 - [koCLIP](https://huggingface.co/koclip) 과 GPT2를 활용하여 이미지 한글 캡션 모델을 훈련시켰다.([참고 모델](https://www.reddit.com/r/MachineLearning/comments/q3xon8/p_fast_and_simple_image_captioning_model_using/)) 해당 모델 훈련을 위해 [MSCOCO dataset](https://cocodataset.org/#home) 전체와 [KETI의 한국어 영상 캡셔닝 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?currMenu=120&topMenu=100&aihubDataSe=extrldata&dataSetSn=261)을 사용하였다. <br>
   해당 모델을 기반으로 빔 탐색 알고리즘을 활용하여 문제 생성을 위한 한글 캡션 데이터를 생성하였다.<br><br>
   ![Alt text](image-1.png)<br><br>
@@ -27,7 +27,7 @@ koCLIP + ko-gpt2 를 사용한 한글 이미지 캡셔닝 데이터를 생성하
   > 캡션의 후보를 동시에 고려하면서 최적의 캡션을 선택하는 방식이므로 정확성이 중요한 상황이나 높은 품질의 캡션을 필요로 하는 경우에 적합함
 
   
-## [프롬프트 엔지니어링]()
+## [프롬프트 엔지니어링](https://github.com/elliekim9881/AIFFELthon_I15/tree/main/quiz_i15/Setquestion_prompt)
 - 프롬프트에 작업 지시문과 하나 이상의 입출력 예시를 함께 포함시키는 "Few-shot" prompting기법을 사용했다. [OpenAI Documentation 참조](https://platform.openai.com/docs/quickstart/add-some-examples?ref=seongjin.me&context=python)<br>
   ```
     To support students with lower literacy skills, I'm creating specialized questions.
