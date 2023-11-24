@@ -26,3 +26,4 @@
 - **caption_prediction_json...** : 캡션 생성 json파일을 만들기 위한 ipynb 파일<br><br>
 - **caption_prediction_koclip...** : koclip을 이용한 캡션 생성 ipynb 파일<br><br>
 - **oscar_split_train.pkl** : CLIP 특징 추출 코드 pkl 파일
+- **Model** : 특징 추출 코드 Pkl파일과 Weight파일 생성 ipynb 
